@@ -8,6 +8,7 @@ class Dog
     @name=name
     @@all<<name
     # binding.pry
+    puts "#{@@all}"
   end
 
   def self.clear_all
